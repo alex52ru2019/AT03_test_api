@@ -11,10 +11,3 @@ def get_cat():
         return response.json()
     else:
         return None
-
-    # def get_cat_image(breed_id):
-    #     url = f'https://api.thecatapi.com/v1/images/search?breed_ids={breed_id}'
-    #     headers = {"x-api-key": THE_CAT_API_KEY}
-    #     response = requests.get(url, headers=headers)
-    #     data = response.json()
-    #     return data[0]['url']
